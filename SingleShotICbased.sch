@@ -1,0 +1,382 @@
+EESchema Schematic File Version 4
+LIBS:SingleShotICbased-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DWL_Devices:NCP781 U?
+U 1 1 5B7B2AF9
+P 4975 3725
+F 0 "U?" H 4975 4100 50  0000 C CNN
+F 1 "NCP781BMN050TAG" H 4975 4009 50  0000 C CNN
+F 2 "DWL_Footprints:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" H 4975 3725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/NCP781-D-1273746.pdf" H 4975 3725 50  0001 C CNN
+	1    4975 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L DWL_Devices:NCP781 U?
+U 1 1 5B7C58AD
+P 8700 3575
+F 0 "U?" H 8700 3950 50  0000 C CNN
+F 1 "NCP781BMN050TAG" H 8700 3859 50  0000 C CNN
+F 2 "DWL_Footprints:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" H 8700 3575 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/NCP781-D-1273746.pdf" H 8700 3575 50  0001 C CNN
+	1    8700 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5B7C5B44
+P 3975 3775
+F 0 "C?" H 4067 3866 50  0000 L CNN
+F 1 "1 uf" H 4067 3775 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 3775 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c03e-516224.pdf" H 3975 3775 50  0001 C CNN
+F 4 "100V" H 4067 3684 50  0000 L CNN "VOLTAGE"
+F 5 "GCJ21BC72A105ME02L" H 3975 3775 50  0001 C CNN "PN"
+	1    3975 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5B7C5DB5
+P 5650 3875
+F 0 "C?" H 5742 3966 50  0000 L CNN
+F 1 "1 uf" H 5742 3875 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 3875 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c03e-516224.pdf" H 5650 3875 50  0001 C CNN
+F 4 "100V" H 5742 3784 50  0000 L CNN "VOLTAGE"
+F 5 "GCJ21BC72A105ME02L" H 5650 3875 50  0001 C CNN "PN"
+	1    5650 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5B7C5E0B
+P 7875 3550
+F 0 "C?" H 7967 3641 50  0000 L CNN
+F 1 "1 uf" H 7967 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7875 3550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c03e-516224.pdf" H 7875 3550 50  0001 C CNN
+F 4 "100V" H 7967 3459 50  0000 L CNN "VOLTAGE"
+F 5 "GCJ21BC72A105ME02L" H 7875 3550 50  0001 C CNN "PN"
+	1    7875 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5B7C5E69
+P 9550 3650
+F 0 "C?" H 9642 3741 50  0000 L CNN
+F 1 "1 uf" H 9642 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9550 3650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c03e-516224.pdf" H 9550 3650 50  0001 C CNN
+F 4 "100V" H 9642 3559 50  0000 L CNN "VOLTAGE"
+F 5 "GCJ21BC72A105ME02L" H 9550 3650 50  0001 C CNN "PN"
+	1    9550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DWL_Devices:TPL5111 U?
+U 1 1 5B7C7920
+P 6650 4900
+F 0 "U?" H 6700 4850 50  0000 C CNN
+F 1 "TPL5111" H 6650 5800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 6950 4850 50  0001 C CNN
+F 3 "" H 6900 5300 50  0001 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 3575 5550 3575
+Wire Wire Line
+	5650 3575 5650 3775
+Wire Wire Line
+	5650 3575 6050 3575
+Wire Wire Line
+	6050 3575 6050 4350
+Wire Wire Line
+	6050 4350 6100 4350
+Connection ~ 5650 3575
+$Comp
+L power:Earth #PWR?
+U 1 1 5B7C8233
+P 6050 5125
+F 0 "#PWR?" H 6050 4875 50  0001 C CNN
+F 1 "Earth" H 6050 4975 50  0001 C CNN
+F 2 "" H 6050 5125 50  0001 C CNN
+F 3 "~" H 6050 5125 50  0001 C CNN
+	1    6050 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5B7C8253
+P 7350 5150
+F 0 "#PWR?" H 7350 4900 50  0001 C CNN
+F 1 "Earth" H 7350 5000 50  0001 C CNN
+F 2 "" H 7350 5150 50  0001 C CNN
+F 3 "~" H 7350 5150 50  0001 C CNN
+	1    7350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5B7C826C
+P 4975 4225
+F 0 "#PWR?" H 4975 3975 50  0001 C CNN
+F 1 "Earth" H 4975 4075 50  0001 C CNN
+F 2 "" H 4975 4225 50  0001 C CNN
+F 3 "~" H 4975 4225 50  0001 C CNN
+	1    4975 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5B7C828C
+P 8700 4025
+F 0 "#PWR?" H 8700 3775 50  0001 C CNN
+F 1 "Earth" H 8700 3875 50  0001 C CNN
+F 2 "" H 8700 4025 50  0001 C CNN
+F 3 "~" H 8700 4025 50  0001 C CNN
+	1    8700 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 3875 3975 4125
+Wire Wire Line
+	3975 4125 4975 4125
+Wire Wire Line
+	4975 4125 4975 4175
+Wire Wire Line
+	4975 4025 4975 4125
+Connection ~ 4975 4125
+Wire Wire Line
+	3975 3675 3975 3575
+Wire Wire Line
+	5650 3975 5650 4175
+Wire Wire Line
+	5650 4175 5400 4175
+Connection ~ 4975 4175
+Wire Wire Line
+	4975 4175 4975 4225
+Wire Wire Line
+	5275 3875 5400 3875
+Wire Wire Line
+	5400 3875 5400 4175
+Connection ~ 5400 4175
+Wire Wire Line
+	5400 4175 4975 4175
+Wire Wire Line
+	5275 3725 5550 3725
+Wire Wire Line
+	5550 3725 5550 3575
+Connection ~ 5550 3575
+Wire Wire Line
+	5550 3575 5650 3575
+Wire Wire Line
+	7200 4350 8100 4350
+Wire Wire Line
+	8100 4350 8100 3725
+Wire Wire Line
+	8100 3725 8400 3725
+$Comp
+L power:Earth #PWR?
+U 1 1 5B7C8DA6
+P 7875 3750
+F 0 "#PWR?" H 7875 3500 50  0001 C CNN
+F 1 "Earth" H 7875 3600 50  0001 C CNN
+F 2 "" H 7875 3750 50  0001 C CNN
+F 3 "~" H 7875 3750 50  0001 C CNN
+	1    7875 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4025 8700 3950
+Wire Wire Line
+	8700 3950 9075 3950
+Wire Wire Line
+	9075 3950 9075 3725
+Wire Wire Line
+	9075 3725 9000 3725
+Connection ~ 8700 3950
+Wire Wire Line
+	8700 3950 8700 3875
+Wire Wire Line
+	9000 3575 9200 3575
+Wire Wire Line
+	9200 3575 9200 3425
+Wire Wire Line
+	9200 3425 9000 3425
+Wire Wire Line
+	9200 3425 9550 3425
+Wire Wire Line
+	9550 3425 9550 3550
+Connection ~ 9200 3425
+Wire Wire Line
+	8400 3425 7875 3425
+Wire Wire Line
+	7875 3425 7875 3450
+Wire Wire Line
+	7875 3650 7875 3750
+Wire Wire Line
+	7200 4800 7350 4800
+Wire Wire Line
+	7350 4800 7350 5100
+Wire Wire Line
+	6100 4800 6050 4800
+Wire Wire Line
+	6050 4800 6050 5050
+$Comp
+L Device:R R?
+U 1 1 5B7CB31B
+P 7625 4850
+F 0 "R?" H 7695 4896 50  0000 L CNN
+F 1 "0" H 7695 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7555 4850 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ1GNJ120C+7+WW" H 7625 4850 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" H 7625 4850 50  0001 C CNN "PN"
+	1    7625 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7625 5000 7625 5100
+Wire Wire Line
+	7625 5100 7350 5100
+Connection ~ 7350 5100
+Wire Wire Line
+	7350 5100 7350 5150
+Wire Wire Line
+	7200 4650 7625 4650
+Wire Wire Line
+	7625 4650 7625 4700
+$Comp
+L Device:R R?
+U 1 1 5B7CC998
+P 5600 4725
+F 0 "R?" H 5670 4771 50  0000 L CNN
+F 1 "15K" H 5670 4680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 4725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/rcse3-1013761.pdf" H 5600 4725 50  0001 C CNN
+F 4 "RCS080515K0FKEA" H 5600 4725 50  0001 C CNN "PN"
+	1    5600 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B7CCA1A
+P 5200 4725
+F 0 "R?" H 5270 4771 50  0000 L CNN
+F 1 "44.2K" H 5270 4680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 4725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5200 4725 50  0001 C CNN
+F 4 "ERJ-6ENF4422V" H 5200 4725 50  0001 C CNN "PN"
+	1    5200 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4575 5600 4500
+Wire Wire Line
+	5600 4500 6100 4500
+Wire Wire Line
+	5200 4575 5200 4500
+Wire Wire Line
+	5200 4500 5600 4500
+Connection ~ 5600 4500
+Wire Wire Line
+	5200 4875 5200 5050
+Wire Wire Line
+	5200 5050 5600 5050
+Connection ~ 6050 5050
+Wire Wire Line
+	6050 5050 6050 5125
+Wire Wire Line
+	5600 4875 5600 5050
+Connection ~ 5600 5050
+Wire Wire Line
+	5600 5050 6050 5050
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5B7D1B15
+P 2775 3025
+F 0 "J?" H 2881 3203 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2881 3112 50  0000 C CNN
+F 2 "" H 2775 3025 50  0001 C CNN
+F 3 "~" H 2775 3025 50  0001 C CNN
+	1    2775 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5B7D1BAD
+P 2975 4800
+F 0 "J?" H 3081 5078 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3081 4987 50  0000 C CNN
+F 2 "" H 2975 4800 50  0001 C CNN
+F 3 "~" H 2975 4800 50  0001 C CNN
+	1    2975 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 3575 4675 3575
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5B7D1DB2
+P 9700 2200
+F 0 "J?" H 9673 2130 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9673 2221 50  0000 R CNN
+F 2 "" H 9700 2200 50  0001 C CNN
+F 3 "~" H 9700 2200 50  0001 C CNN
+	1    9700 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5B7D3641
+P 10475 3300
+F 0 "J?" H 10502 3326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 10502 3235 50  0000 L CNN
+F 2 "" H 10475 3300 50  0001 C CNN
+F 3 "~" H 10475 3300 50  0001 C CNN
+	1    10475 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 3025 3975 3025
+Wire Wire Line
+	3975 3025 3975 3575
+Connection ~ 3975 3575
+$Comp
+L power:Earth #PWR?
+U 1 1 5B7D45A4
+P 3050 3250
+F 0 "#PWR?" H 3050 3000 50  0001 C CNN
+F 1 "Earth" H 3050 3100 50  0001 C CNN
+F 2 "" H 3050 3250 50  0001 C CNN
+F 3 "~" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 3125 3050 3125
+Wire Wire Line
+	3050 3125 3050 3250
+Wire Wire Line
+	7875 3425 7875 3025
+Wire Wire Line
+	7875 3025 3975 3025
+Connection ~ 7875 3425
+Connection ~ 3975 3025
+$EndSCHEMATC
