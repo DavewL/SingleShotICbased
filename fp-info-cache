@@ -1,4 +1,4 @@
-15704339071602429
+15704339091848637
 ab2_7segment
 AB2_7SEG_5IN_DEC_RED
 
@@ -2184,13 +2184,6 @@ AB2_MSOP10
 10
 10
 ab2_sop
-AB2_SOP6-4
-
-
-0
-4
-4
-ab2_sop
 AB2_SOP06-4
 
 
@@ -2198,7 +2191,7 @@ AB2_SOP06-4
 4
 4
 ab2_sop
-AB2_USOP04
+AB2_SOP6-4
 
 
 0
@@ -2206,6 +2199,13 @@ AB2_USOP04
 4
 ab2_sop
 AB2_USOP4
+
+
+0
+4
+4
+ab2_sop
+AB2_USOP04
 
 
 0
