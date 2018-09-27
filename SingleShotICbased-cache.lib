@@ -1,80 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x01_Female
+# DWL_Devices_CINCH_5810118039
 #
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
+DEF DWL_Devices_CINCH_5810118039 J 0 40 Y Y 1 F N
+F0 "J" -100 750 50 H V C CNN
+F1 "DWL_Devices_CINCH_5810118039" -50 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
+F3 "https://www.belfuse.com/resources/drawings/cinchconnectivitysolutions/modice/dr-ccs-ice-5810112011.pdf" 0 -250 50 H I C CNN
 DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x01_Male
-#
-DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-S 34 5 0 -5 1 1 6 F
-P 2 1 1 6 50 0 34 0 N
-X Pin_1 1 200 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x02_Male
-#
-DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-X Pin_1 1 200 0 150 L 50 50 1 1 P
-X Pin_2 2 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x03_Male
-#
-DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-X Pin_1 1 200 100 150 L 50 50 1 1 P
-X Pin_2 2 200 0 150 L 50 50 1 1 P
-X Pin_3 3 200 -100 150 L 50 50 1 1 P
+S -400 700 250 -100 0 1 0 N
+X 1 1 -500 550 100 R 50 50 1 1 U
+X 10 10 350 250 100 L 50 50 1 1 U
+X 11 11 350 150 100 L 50 50 1 1 U
+X 12 12 350 50 100 L 50 50 1 1 U
+X 2 2 -500 450 100 R 50 50 1 1 U
+X 3 3 -500 350 100 R 50 50 1 1 U
+X 4 4 -500 250 100 R 50 50 1 1 U
+X 5 5 -500 150 100 R 50 50 1 1 U
+X 6 6 -500 50 100 R 50 50 1 1 U
+X 7 7 350 550 100 L 50 50 1 1 U
+X 8 8 350 450 100 L 50 50 1 1 U
+X 9 9 350 350 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
@@ -156,6 +103,29 @@ P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_TVS
+#
+DEF Device_D_TVS D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_TVS" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 N
+P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
+P 4 0 1 8 100 50 100 -50 0 0 100 50 N
+X A1 1 -150 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
